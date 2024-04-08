@@ -236,6 +236,35 @@ header img {
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact {
+    height: 420px;
+    text-align: center;
+}
 
+.contact div {
+    justify-content: center;
+    margin: 0 12px;
+}
 
+.contact label {
+    width: 150px;
+    text-align: right;
+}
+
+.contact input, .contact textarea {
+    margin-left: 30px;
+    width: 300px;
+    border: black solid 1px;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact input, .contact textarea, .contact label {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
 
